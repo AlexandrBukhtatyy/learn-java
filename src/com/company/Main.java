@@ -10,7 +10,11 @@ public class Main {
         float flt = 12.324f; // 4 байта
         double dbl = 12.324; // 8 байт
         boolean bln = false; // 1 бит
-        char chr;
+        char chr = 's';
+
+        Employee employee = new Employee();
+
         System.out.println("Hello World!");
+        System.out.println("Employee: " + employee.salary);
     }
 }
